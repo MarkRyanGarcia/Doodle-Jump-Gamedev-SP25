@@ -63,8 +63,8 @@ During this workshop, we’ll cover the following Unity game development concept
 ---
 
 ## **📂 Project Structure**  
-
-/DoodleJumpClone
+```
+/Doodle-Jump-Gamedev-SP25
 │── Assets/
 │   ├── Sprites/            # Player, platforms, background, UI elements
 │   ├── Scripts/            # C# scripts for player, spawner, camera, etc.
@@ -72,3 +72,4 @@ During this workshop, we’ll cover the following Unity game development concept
 │   ├── Scenes/             # Title screen & main game scene
 │── README.md               # This file!
 
+```
