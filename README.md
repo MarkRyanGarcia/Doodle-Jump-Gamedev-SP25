@@ -36,29 +36,21 @@ Welcome to the **Doodle Jump Clone** Unity Workshop! In this workshop, you'll le
 ## **🛠️ Concepts Covered in the Workshop**  
 During this workshop, we’ll cover the following Unity game development concepts:  
 
-### **1️⃣ Player Movement & Physics**  
+### **1. Player Movement & Physics**  
 - Handling **left & right movement** with `Input.GetAxis`  
 - Applying **jump mechanics** using `Rigidbody2D`  
 - Implementing **screen wrapping**  
-
-### **2️⃣ Collision & Interaction**  
-- Detecting **collisions with platforms** (`OnTriggerEnter2D`)  
-- Allowing the player to **pass through platforms on the way up**  
-
-### **3️⃣ Platform Spawning & Destruction**  
+### **2. Collision & Interaction**  
+- Detecting collisions with `OnTriggerEnter2D` instead of the usual `OnCollisionEnter2D`
+- Allows the player to **pass through platforms on the way up**  
+### **3. Platform Spawning & Destruction**  
 - Generating **randomly placed platforms**  
 - Destroying platforms **once they move off-screen**  
-
-### **4️⃣ Camera & Background Scrolling**  
+### **4. Camera & Background Scrolling**  
 - Making the **camera follow the player** as they ascend  
 - Implementing an **infinite scrolling background**  
-
-### **5️⃣ UI & Score System**  
-- Displaying the **player’s height as a score**  
-
-### **6️⃣ Game Loop & Game Management**  
-- Creating a **Game Manager** to handle the flow of the game  
-- Adding a **Title Screen** and restarting the game when the player falls  
+### **5. UI & Score System**  
+- Displaying the **player’s height as a score**
 
 ---
 
